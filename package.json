@@ -1,0 +1,27 @@
+{
+  "name": "m1p5mean-30-avotra",
+  "version": "1.0.0",
+  "description": "projet mean playlist de type youtube avec player video",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niaina3/m1p5mean-30-Avotra.git"
+  },
+  "keywords": [
+    "Projet",
+    "MEAN"
+  ],
+  "author": "Rakotoson Avotra Niaina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niaina3/m1p5mean-30-Avotra/issues"
+  },
+  "homepage": "https://github.com/Niaina3/m1p5mean-30-Avotra#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7"
+  }
+}
