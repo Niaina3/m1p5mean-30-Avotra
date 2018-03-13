@@ -15,12 +15,13 @@ mongoose.connect(config.url, function(err){
     }
 });
 
+
 app.use(express.static(__dirname + '/client/dist/'))
 
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname + '/client/dist/index.html'));
 });
-  
+
 app.listen(port, function(){
     console.log('server turn on port :' + port);
 });
